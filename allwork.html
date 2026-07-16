@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="All work by Abigail Salazar — branding, product, and digital design projects." />
+  <title>All Work | Abigail Salazar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <p class="name">Abigail Salazar</p>
+    <p class="dateline">All Work &middot; Vol. 01 &middot; 2026</p>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <nav aria-label="Main navigation">
+        <p class="eyebrow">Contents</p>
+        <ul>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="allwork.html">All Work</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="stamp" aria-hidden="true">
+        <span>Design</span>
+        <span class="stamp-big">Portfolio</span>
+        <span>Est. 2026</span>
+      </div>
+    </aside>
+
+    <main>
+      <section class="page-hero">
+        <p class="kicker">Full Archive</p>
+        <h1>All Work</h1>
+      </section>
+
+      <!-- Filter buttons are generated automatically from each project's
+           "category" in projects-data.js — nothing to edit here. -->
+      <div id="filter-bar" class="filter-bar" role="group" aria-label="Filter projects by category"></div>
+
+      <!-- Every project renders here automatically. -->
+      <div id="work-grid" class="work-grid"></div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Abigail Salazar</span>
+    <a href="contact.html">Get in touch &rarr;</a>
+  </footer>
+
+  <script src="projects-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
