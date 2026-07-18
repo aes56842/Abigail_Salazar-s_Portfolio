@@ -175,7 +175,7 @@ a { color: inherit; }
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--red);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Big falling "aes" mark */
@@ -194,7 +194,7 @@ a { color: inherit; }
   font-weight: 600;
   font-size: clamp(10rem, 58vw, 44rem);
   line-height: 0.7;
-  margin: 0.25rem 0 1.5rem;
+  margin: -1.5rem 0 1.5rem;
 }
 
 .hero-mark span {
