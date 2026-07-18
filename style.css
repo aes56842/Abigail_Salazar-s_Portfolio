@@ -184,7 +184,7 @@ a { color: inherit; }
   gap: 0.01em;
   font-family: var(--display);
   font-weight: 600;
-  font-size: clamp(10rem, 1000vw, 90rem);
+  font-size: clamp(10rem, 110vw, 100rem);
   line-height: 0.7;
   margin: 0.25rem 0 1.5rem;
 }
