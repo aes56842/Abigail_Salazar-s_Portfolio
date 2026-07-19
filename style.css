@@ -192,9 +192,9 @@ a { color: inherit; }
   gap: 0.01em;
   font-family: var(--display);
   font-weight: 600;
-  font-size: clamp(10rem, 38vw, 24rem);
+  font-size: clamp(10rem, 58vw, 44rem);
   line-height: 0.7;
-  margin: clamp(-16rem, -22vw, -9rem) 0 1.5rem;
+  margin: clamp(-4rem, -8vw, -1.5rem) 0 1.5rem;
 }
 
 .hero-mark span {

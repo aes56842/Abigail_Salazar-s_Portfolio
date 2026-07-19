@@ -5,6 +5,13 @@
   You shouldn't need to edit this file — edit projects-data.js instead.
 */
 
+// Always load at the top of the page, don't let the browser restore
+// a previous scroll position on refresh.
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+window.scrollTo(0, 0);
+
 function sortByNewest(list) {
   return [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
