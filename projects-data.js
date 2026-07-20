@@ -7,7 +7,9 @@
   1. Copy one of the blocks below (the part between { and }).
   2. Paste it at the top or bottom of the list, add a comma above it if needed.
   3. Fill in your own title, category, description, image, and date.
-  4. Save. The homepage automatically shows your 5 most recent projects
+  4. Duplicate "project-template.html", rename the copy to match the "slug"
+     you used below (e.g. "mynewproject.html"), and fill in its placeholders.
+  5. Save. The homepage automatically shows your 5 most recent projects
      (by "date"), and allwork.html automatically lists everything.
 
   FIELD GUIDE:

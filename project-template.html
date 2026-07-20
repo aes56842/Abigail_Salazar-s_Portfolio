@@ -1,0 +1,127 @@
+<!--
+  PROJECT PAGE TEMPLATE
+  ======================
+  HOW TO USE THIS FOR A NEW PROJECT:
+  1. Duplicate this file and rename it to match the "slug" you use for that
+     project in projects-data.js (e.g. "mynewproject.html").
+  2. Search this file for ALL CAPS placeholders like [PROJECT TITLE] and
+     replace them with your real content.
+  3. Replace the image/video filenames with your own asset filenames.
+  4. Delete this comment block when you're done.
+  Note: the "Previous / Next project" links at the bottom fill themselves
+  in automatically based on projects-data.js — you don't need to edit those.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="[PROJECT TITLE] — [ONE-SENTENCE DESCRIPTION]" />
+  <title>[PROJECT TITLE] | Abigail Salazar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <p class="name">Abigail Salazar</p>
+    <p class="dateline">Project &middot; Vol. 01 &middot; 2026</p>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <nav aria-label="Main navigation">
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="eyebrow">Contents</span>
+          <span class="nav-toggle-icon" aria-hidden="true">&#9662;</span>
+        </button>
+        <ul id="nav-menu">
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="allwork.html">All Work</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="stamp" aria-hidden="true">
+        <span>Design</span>
+        <span class="stamp-big">Portfolio</span>
+        <span>Est. 2026</span>
+      </div>
+    </aside>
+
+    <main>
+      <section class="page-hero">
+        <p class="kicker">[CATEGORY, e.g. Product Design]</p>
+        <h1>[PROJECT TITLE]</h1>
+      </section>
+
+      <!-- Main hero image or video for the project. If it's a video,
+           swap the <img> tag for the <video> block used further down
+           this file (see the commented example). -->
+      <div class="detail-hero-media">
+        <img src="[main-image-filename.png]" alt="[PROJECT TITLE] hero image" />
+      </div>
+
+      <!-- Example of a video hero instead of an image:
+      <div class="detail-hero-media">
+        <video controls muted playsinline poster="[optional-poster.png]">
+          <source src="[video-filename.mp4]" type="video/mp4" />
+        </video>
+      </div>
+      -->
+
+      <div class="project-meta">
+        <div class="project-meta-item">
+          <p class="label">Role</p>
+          <p class="value">[e.g. Product Designer]</p>
+        </div>
+        <div class="project-meta-item">
+          <p class="label">Year</p>
+          <p class="value">[e.g. 2026]</p>
+        </div>
+        <div class="project-meta-item">
+          <p class="label">Tools</p>
+          <p class="value">[e.g. Figma, Illustrator]</p>
+        </div>
+      </div>
+
+      <section class="editorial-body">
+        <p>
+          [Write an overview paragraph here — the problem you were solving,
+          who it was for, and your role. 2–4 sentences is plenty.]
+        </p>
+        <p>
+          [Optional second paragraph — your process, key decisions, or a
+          specific challenge you solved.]
+        </p>
+      </section>
+
+      <!-- Add as many supporting images as you like here. Delete this
+           section entirely if you don't need extra images beyond the hero. -->
+      <div class="project-gallery">
+        <img src="[gallery-image-1.png]" alt="[Describe this image]" loading="lazy" />
+        <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
+      </div>
+
+      <section class="editorial-body">
+        <p>
+          [Optional closing paragraph — outcome, what you learned, or a link
+          to a live site if applicable.]
+        </p>
+      </section>
+
+      <!-- This fills itself in automatically — leave it as-is. -->
+      <nav class="project-nav" id="project-nav" aria-label="Other projects"></nav>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Abigail Salazar</span>
+    <a href="contact.html">Get in touch &rarr;</a>
+  </footer>
+
+  <script src="projects-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

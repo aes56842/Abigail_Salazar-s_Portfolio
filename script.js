@@ -137,6 +137,34 @@ function initNavToggle() {
   });
 }
 
+/* ---------- Project detail page: prev/next nav ---------- */
+function renderProjectNav() {
+  const container = document.getElementById("project-nav");
+  if (!container) return;
+
+  const ordered = sortByNewest(PROJECTS);
+  const currentFile = location.pathname.split("/").pop();
+  const index = ordered.findIndex((p) => p.slug === currentFile);
+  if (index === -1) return;
+
+  const prev = ordered[index - 1];
+  const next = ordered[index + 1];
+
+  container.innerHTML = `
+    ${
+      prev
+        ? `<a href="${prev.slug}" class="prev"><span class="nav-label">&larr; Previous</span><span class="nav-title">${prev.title}</span></a>`
+        : "<span></span>"
+    }
+    ${
+      next
+        ? `<a href="${next.slug}" class="next"><span class="nav-label">Next &rarr;</span><span class="nav-title">${next.title}</span></a>`
+        : "<span></span>"
+    }
+  `;
+}
+
 renderSpreads();
 renderWorkGrid();
 initNavToggle();
+renderProjectNav();
