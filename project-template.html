@@ -55,18 +55,30 @@
         <h1>[PROJECT TITLE]</h1>
       </section>
 
-      <!-- Main hero image or video for the project. If it's a video,
-           swap the <img> tag for the <video> block used further down
-           this file (see the commented example). -->
-      <div class="detail-hero-media">
-        <img src="[main-image-filename.png]" alt="[PROJECT TITLE] hero image" />
+      <!-- All project images go in this one carousel. People click the
+           image (or the arrows) to move to the next one. Add as many
+           <img> tags as you need. -->
+      <div class="project-carousel">
+        <div class="carousel-track">
+          <img src="[main-image-filename.png]" alt="[PROJECT TITLE]" />
+          <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">&larr;</button>
+        <button class="carousel-next" aria-label="Next image">&rarr;</button>
+        <div class="carousel-dots"></div>
       </div>
 
-      <!-- Example of a video hero instead of an image:
-      <div class="detail-hero-media">
-        <video controls muted playsinline poster="[optional-poster.png]">
-          <source src="[video-filename.mp4]" type="video/mp4" />
-        </video>
+      <!-- Example if your first slide is a video instead of an image:
+      <div class="project-carousel">
+        <div class="carousel-track">
+          <video autoplay muted loop playsinline aria-label="[PROJECT TITLE] preview">
+            <source src="[video-filename.mp4]" type="video/mp4" />
+          </video>
+          <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">&larr;</button>
+        <button class="carousel-next" aria-label="Next image">&rarr;</button>
+        <div class="carousel-dots"></div>
       </div>
       -->
 
@@ -98,7 +110,7 @@
         </a>
       </p>
 
-      <section class="editorial-body">
+      <section class="editorial-body wide">
         <p>
           [Write an overview paragraph here — the problem you were solving,
           who it was for, and your role. 2–4 sentences is plenty.]
@@ -106,26 +118,6 @@
         <p>
           [Optional second paragraph — your process, key decisions, or a
           specific challenge you solved.]
-        </p>
-      </section>
-
-      <!-- Add as many images as you like here — people click the image
-           (or the arrows) to move to the next one. Delete this whole
-           <div class="project-carousel"> block if you don't need it. -->
-      <div class="project-carousel">
-        <div class="carousel-track">
-          <img src="[gallery-image-1.png]" alt="[Describe this image]" loading="lazy" />
-          <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
-        </div>
-        <button class="carousel-prev" aria-label="Previous image">&larr;</button>
-        <button class="carousel-next" aria-label="Next image">&rarr;</button>
-        <div class="carousel-dots"></div>
-      </div>
-
-      <section class="editorial-body">
-        <p>
-          [Optional closing paragraph — outcome, what you learned, or a link
-          to a live site if applicable.]
         </p>
       </section>
 
