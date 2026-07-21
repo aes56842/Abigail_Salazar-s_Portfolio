@@ -88,8 +88,16 @@
 
       <!-- Add more images here if you have them. Delete this whole
            <div class="project-gallery"> block if you don't need it. -->
-      <div class="project-gallery">
-        <!-- <img src="your-image.png" alt="Describe this image" loading="lazy" /> -->
+      <!-- Add image files here, one <img> per slide. People click the
+           image (or the arrows) to move to the next one. -->
+      <div class="project-carousel">
+        <div class="carousel-track">
+          <!-- <img src="your-image-1.png" alt="Describe this image" loading="lazy" /> -->
+          <!-- <img src="your-image-2.png" alt="Describe this image" loading="lazy" /> -->
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">&larr;</button>
+        <button class="carousel-next" aria-label="Next image">&rarr;</button>
+        <div class="carousel-dots"></div>
       </div>
 
       <nav class="project-nav" id="project-nav" aria-label="Other projects"></nav>

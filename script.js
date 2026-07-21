@@ -164,7 +164,49 @@ function renderProjectNav() {
   `;
 }
 
+/* ---------- Project detail page: image carousel ---------- */
+function initCarousels() {
+  document.querySelectorAll(".project-carousel").forEach((carousel) => {
+    const track = carousel.querySelector(".carousel-track");
+    const slides = Array.from(track.children);
+    const prevBtn = carousel.querySelector(".carousel-prev");
+    const nextBtn = carousel.querySelector(".carousel-next");
+    const dotsWrap = carousel.querySelector(".carousel-dots");
+
+    if (slides.length <= 1) {
+      if (prevBtn) prevBtn.style.display = "none";
+      if (nextBtn) nextBtn.style.display = "none";
+      return;
+    }
+
+    let index = 0;
+    const dots = slides.map((_, i) => {
+      const dot = document.createElement("button");
+      dot.className = "carousel-dot" + (i === 0 ? " is-active" : "");
+      dot.setAttribute("aria-label", `Go to image ${i + 1}`);
+      dot.addEventListener("click", () => goTo(i));
+      dotsWrap.appendChild(dot);
+      return dot;
+    });
+
+    function update() {
+      track.style.transform = `translateX(-${index * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle("is-active", i === index));
+    }
+
+    function goTo(i) {
+      index = (i + slides.length) % slides.length;
+      update();
+    }
+
+    prevBtn?.addEventListener("click", () => goTo(index - 1));
+    nextBtn?.addEventListener("click", () => goTo(index + 1));
+    slides.forEach((slide) => slide.addEventListener("click", () => goTo(index + 1)));
+  });
+}
+
 renderSpreads();
 renderWorkGrid();
 initNavToggle();
 renderProjectNav();
+initCarousels();

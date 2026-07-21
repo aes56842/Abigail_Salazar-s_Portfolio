@@ -109,11 +109,17 @@
         </p>
       </section>
 
-      <!-- Add as many supporting images as you like here. Delete this
-           section entirely if you don't need extra images beyond the hero. -->
-      <div class="project-gallery">
-        <img src="[gallery-image-1.png]" alt="[Describe this image]" loading="lazy" />
-        <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
+      <!-- Add as many images as you like here — people click the image
+           (or the arrows) to move to the next one. Delete this whole
+           <div class="project-carousel"> block if you don't need it. -->
+      <div class="project-carousel">
+        <div class="carousel-track">
+          <img src="[gallery-image-1.png]" alt="[Describe this image]" loading="lazy" />
+          <img src="[gallery-image-2.png]" alt="[Describe this image]" loading="lazy" />
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">&larr;</button>
+        <button class="carousel-next" aria-label="Next image">&rarr;</button>
+        <div class="carousel-dots"></div>
       </div>
 
       <section class="editorial-body">

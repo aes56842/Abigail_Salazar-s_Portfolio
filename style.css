@@ -517,20 +517,74 @@ a { color: inherit; }
   margin: 0;
 }
 
-.project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+.project-carousel {
+  position: relative;
   margin: 3rem 0;
+  overflow: hidden;
+  background: var(--paper-alt);
 }
 
-.project-gallery img,
-.project-gallery video {
+.carousel-track {
+  display: flex;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.carousel-track img,
+.carousel-track video {
+  flex: 0 0 100%;
   width: 100%;
   height: auto;
   display: block;
-  background: var(--paper-alt);
+  cursor: pointer;
 }
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(23, 20, 15, 0.55);
+  color: var(--ink);
+  font-family: var(--utility);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: var(--red);
+}
+
+.carousel-prev { left: 1rem; }
+.carousel-next { right: 1rem; }
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: var(--rule);
+  cursor: pointer;
+}
+
+.carousel-dot.is-active { background: var(--red); }
 
 .project-nav {
   display: flex;
@@ -566,6 +620,37 @@ a { color: inherit; }
 }
 
 .project-nav a:hover .nav-title { color: var(--red); }
+
+.download-row {
+  margin: 0 0 3rem;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--utility);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1.5px solid var(--ink);
+  padding: 0.7rem 1.3rem;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.download-button svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.download-button:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
 
 /* ---------- Footer ---------- */
 footer.site-footer {
