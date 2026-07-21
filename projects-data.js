@@ -30,7 +30,7 @@ const PROJECTS = [
     title: "Taktis: Smart Pen",
     category: "Product Design",
     description: "Where every word moves with you.",
-    image: "taktis.png",
+    image: "taktisthumbnail.png",
     video: false,
     date: "2026-06-01"
   },
@@ -39,7 +39,7 @@ const PROJECTS = [
     title: "With Love Market & Cafe",
     category: "Web Design",
     description: "Bringing healthy food to South LA.",
-    image: "withlove.png",
+    image: "withlovethumbnail.png",
     video: false,
     date: "2026-05-01"
   },
@@ -48,7 +48,7 @@ const PROJECTS = [
     title: "ARO",
     category: "Branding",
     description: "Wear a narrative.",
-    image: "aro.png",
+    image: "arothumbnail.png",
     video: false,
     date: "2026-04-01"
   },
@@ -57,7 +57,7 @@ const PROJECTS = [
     title: "ACASO",
     category: "Brand Identity",
     description: "Built for the ambitious.",
-    image: "acasobekai.png",
+    image: "acasothumbnail.png",
     video: false,
     date: "2026-03-01"
   },
