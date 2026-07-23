@@ -43,9 +43,9 @@
 */
 
 const ART_GALLERY = [
-  "art-1.png", "art-2.png", "art-3.png", "art-4.png", "art-5.png",
-  "art-6.png", "art-7.png", "art-8.png", "art-9.png", "art-10.png",
-  "art-11.png", "art-12.png", "art-13.png", "art-14.png"
+  "heartart.png", "flowerart.heic", "pigeonhouseart.heic", "pigeonart2.heic", "pigeonart3.heic",
+  "phoneart.heic", "beeart.heic", "turtleart.heic", "reefart.heic", "reedart1.heic",
+  "beeart.heic", "sunflowerart.heic", "sunflowerart2.heic", "shoeart.heic"
 ];
 
 const PROJECTS = [
@@ -104,8 +104,8 @@ const PROJECTS = [
     title: "Art",
     category: "Art",
     description: "A collection of personal artwork.",
-    image: ART_GALLERY[0],
-    thumbnail: heartart.PNG,
+    image: heartart.png,
+    thumbnail: heartart.png,
     gallery: ART_GALLERY,
     hideFromHome: true,
     date: "2024-01-01"
