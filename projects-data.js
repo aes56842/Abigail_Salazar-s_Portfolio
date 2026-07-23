@@ -29,14 +29,17 @@
                   exact, just needs to be more recent than older projects.
 */
 
+/*Thumbnails with 2 on the end are thumbnails for "all work" section*/
+
+
 const PROJECTS = [
   {
     slug: "taktisinfopage.html",
     title: "Taktis: Smart Pen",
     category: "Product Design",
     description: "Where every word moves with you.",
-    image: "taktis.png",
-    thumbnail: "taktisthumbnail.png",
+    image: "taktisthumbnail.png",
+    thumbnail: "taktisthumbnail2.png",
     video: false,
     date: "2026-06-01"
   },
@@ -45,8 +48,8 @@ const PROJECTS = [
     title: "With Love Market & Cafe",
     category: "Web Design",
     description: "Bringing healthy food to South LA.",
-    image: "withlove.png",
-    thumbnail: "withlovethumbnail.png",
+    image: "withlovethumbnail.png",
+    thumbnail: "withlovethumbnail2.png",
     video: false,
     date: "2026-05-01"
   },
@@ -55,8 +58,8 @@ const PROJECTS = [
     title: "ARO",
     category: "Branding",
     description: "Wear a narrative.",
-    image: "aro.png",
-    thumbnail: "arothumbnail.png",
+    image: "arothumbnail.png",
+    thumbnail: "arothumbnail2.png",
     video: false,
     date: "2026-04-01"
   },
@@ -65,8 +68,8 @@ const PROJECTS = [
     title: "ACASO",
     category: "Brand Identity",
     description: "Built for the ambitious.",
-    image: "acasobekai.png",
-    thumbnail: "acasothumbnail.png",
+    image: "acasothumbnail.png",
+    thumbnail: "acasothumbnail2.png",
     video: false,
     date: "2026-03-01"
   },
