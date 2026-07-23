@@ -18,7 +18,12 @@
   - category:    short label like "Branding" or "Web Design" — also used for
                   the filter buttons on the All Work page
   - description: one short sentence/tagline
-  - image:       filename of the thumbnail image (must be in the same folder)
+  - image:       filename of the main image (used on the homepage and as
+                  the All Work thumbnail, unless "thumbnail" is set below)
+  - thumbnail:   OPTIONAL. A separate image filename used only for the All
+                  Work grid. Use this if your main "image" doesn't crop well
+                  into a portrait (4:5) box — add a dedicated crop instead.
+                  Leave this out entirely if "image" already looks fine.
   - video:       set to true ONLY if "image" is actually a video file (.mp4)
   - date:        "YYYY-MM-DD" — used to sort newest-first. Doesn't need to be
                   exact, just needs to be more recent than older projects.

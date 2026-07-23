@@ -21,14 +21,15 @@ function folio(index) {
   return String(index + 1).padStart(2, "0");
 }
 
-function mediaMarkup(project) {
-  if (project.video) {
+function mediaMarkup(project, srcOverride) {
+  const src = srcOverride || project.image;
+  if (project.video && !srcOverride) {
     return `
       <video autoplay muted loop playsinline aria-label="${project.title} preview">
-        <source src="${project.image}" type="video/mp4" />
+        <source src="${src}" type="video/mp4" />
       </video>`;
   }
-  return `<img src="${project.image}" alt="${project.title}" loading="lazy" />`;
+  return `<img src="${src}" alt="${project.title}" loading="lazy" />`;
 }
 
 /* ---------- Homepage: editorial spreads (top 5 newest) ---------- */
@@ -88,7 +89,7 @@ function renderWorkGrid() {
       .map(
         (project, i) => `
         <a class="work-card" href="${project.slug}" data-category="${project.category}">
-          <div class="work-card-media">${mediaMarkup(project)}</div>
+          <div class="work-card-media">${mediaMarkup(project, project.thumbnail)}</div>
           <div class="work-card-info">
             <p class="category">${project.category}</p>
             <h3>${project.title}</h3>
