@@ -108,6 +108,6 @@ const PROJECTS = [
     thumbnail: ART_GALLERY[0],
     gallery: ART_GALLERY,
     hideFromHome: true,
-    date: "2024-Present"
+    date: "2024-01-01"
   }
 ];
