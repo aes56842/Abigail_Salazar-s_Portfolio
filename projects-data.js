@@ -104,8 +104,8 @@ const PROJECTS = [
     title: "Art",
     category: "Art",
     description: "A collection of personal artwork.",
-    image: heartart.png,
-    thumbnail: heartart.png,
+    image: "heartart.png",
+    thumbnail: "heartart.png",
     gallery: ART_GALLERY,
     hideFromHome: true,
     date: "2024-01-01"
