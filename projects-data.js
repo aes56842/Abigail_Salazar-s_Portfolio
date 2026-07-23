@@ -66,7 +66,7 @@ const PROJECTS = [
   {
     slug: "acasoinfopage.html",
     title: "ACASO",
-    category: "Brand Identity",
+    category: "Branding",
     description: "Built for the ambitious.",
     image: "acasothumbnail.png",
     thumbnail: "acasothumbnail2.png",
