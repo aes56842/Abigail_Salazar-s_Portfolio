@@ -44,7 +44,7 @@
 
 const ART_GALLERY = [
   "heartart.png", "flowerart.heic", "pigeonhouseart.heic", "pigeonart2.heic", "pigeonart3.heic",
-  "phoneart.heic", "beeart.heic", "turtleart.heic", "reefart.heic", "reedart1.heic",
+  "phoneart.heic", "heartart.png", "turtleart.heic", "reefart.heic", "reedart1.heic",
   "beeart.heic", "sunflowerart.heic", "sunflowerart2.heic", "shoeart.heic"
 ];
 
