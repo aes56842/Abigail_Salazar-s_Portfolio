@@ -107,7 +107,7 @@ const PROJECTS = [
     category: "Validation & Growth",
     description: "The Electric Motorcycle",
     image: "vexcitethumbnail.png",
-    thumbnail: "vexcitethumbnail.png.png",
+    thumbnail: "vexcitethumbnail2.png",
     video: false,
     date: "2026-04-01"
   },
