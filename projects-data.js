@@ -100,6 +100,21 @@ const PROJECTS = [
     video: true,
     date: "2026-02-01"
   },
+
+{
+     slug: "acasoinfopage.html",
+    title: "Vexcite",
+    category: "Validation & Growth",
+    description: "The Electric Motorcycle",
+    image: "vexcitethumbnail.png",
+    thumbnail: "vexcitethumbnail.png.png",
+    video: false,
+    date: "2026-04-01"
+  },
+
+
+
+  
   {
     title: "Art",
     category: "Art",
