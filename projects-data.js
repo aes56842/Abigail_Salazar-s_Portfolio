@@ -77,6 +77,7 @@ const PROJECTS = [
     image: "arothumbnail.png",
     thumbnail: "arothumbnail2.png",
     video: false,
+    hideFromHome: true,
     date: "2026-04-01"
   },
   {
