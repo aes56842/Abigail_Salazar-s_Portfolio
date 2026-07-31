@@ -137,6 +137,29 @@ const PROJECTS = [
     date: "2026-04-01"
   },
 
+  {
+     slug: "acasoinfopage.html",
+    title: "Chindōgu Design",
+    category: "Product Design",
+    description: "Chindōgu Design Concept",
+    image: "Chindoguthumbnail.png",
+    thumbnail: "Chindoguthumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2025-10-01"
+  },
+
+  {
+     slug: "acasoinfopage.html",
+    title: "ArenaTable",
+    category: "Product Design",
+    description: "Sports Reimagined",
+    image: "arenatablethumbnail.png",
+    thumbnail: "arenatablethumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2025-11-01"
+  },
   
   {
     title: "Art",
