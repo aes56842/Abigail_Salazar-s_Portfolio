@@ -160,6 +160,18 @@ const PROJECTS = [
     hideFromHome: true,
     date: "2025-11-01"
   },
+
+  {
+     slug: "acasoinfopage.html",
+    title: "Classmate App",
+    category: "Validation & Growth",
+    description: "AI-Powered Writing Feedback",
+    image: "classmatethumbnail.png",
+    thumbnail: "classmatethumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2025-12-01"
+  },
   
   {
     title: "Art",
