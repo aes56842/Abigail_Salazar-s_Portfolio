@@ -94,7 +94,7 @@ const PROJECTS = [
   {
     slug: "iyacyberpunkinfopage.html",
     title: "IYA \u00d7 Cyberpunk",
-    category: "Concept / Motion",
+    category: " 3D Concept / Motion",
     description: "A total redesign.",
     // Re-export the original .mov as .mp4 and update the filename below —
     // browsers don't reliably play .mov files.
