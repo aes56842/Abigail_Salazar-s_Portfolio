@@ -117,7 +117,7 @@ const PROJECTS = [
 {
      slug: "acasoinfopage.html",
     title: "Oura Ring Concept",
-    category: "Product Designh",
+    category: "Product Design",
     description: "Oura: The Future of Healing",
     image: "ouraringthumbnail.png",
     thumbnail: "ouraringthumbnail2.png",
