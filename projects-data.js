@@ -67,6 +67,7 @@ const PROJECTS = [
     image: "withlovethumbnail.png",
     thumbnail: "withlovethumbnail2.png",
     video: false,
+    hideFromHome: true,
     date: "2026-05-01"
   },
   {
@@ -113,7 +114,28 @@ const PROJECTS = [
     date: "2026-04-01"
   },
 
+{
+     slug: "acasoinfopage.html",
+    title: "Oura Ring Concept",
+    category: "Product Designh",
+    description: "Oura: The Future of Healing",
+    image: "ouraringthumbnail.png",
+    thumbnail: "ouraringthumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2026-04-01"
+  },
 
+  {
+     slug: "acasoinfopage.html",
+    title: "USC X ARS PHARMA",
+    category: "Validation & Growth",
+    description: "Anaphylaxis Prevention on Campus",
+    image: "uscxpharmathumbnail.png",
+    thumbnail: "uscxpharmathumbnail2.png",
+    video: false,
+    date: "2026-04-01"
+  },
 
   
   {
