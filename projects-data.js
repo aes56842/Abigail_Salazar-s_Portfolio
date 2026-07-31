@@ -172,6 +172,30 @@ const PROJECTS = [
     hideFromHome: true,
     date: "2025-12-01"
   },
+
+  {
+     slug: "acasoinfopage.html",
+    title: "Redesign: USC's Mobile Ordering App",
+    category: "Validation & Growth",
+    description: "Simpler, Faster, Efficient Ordering",
+    image: "classmatethumbnail.png",
+    thumbnail: "classmatethumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2025-12-01"
+  },
+
+  {
+     slug: "acasoinfopage.html",
+    title: "COFFAE Web Design",
+    category: "Web Design",
+    description: "Sustainable, Modern, Affordable Coffee Table",
+    image: "coffaethumbnail.png",
+    thumbnail: "coffaethumbnail2.png",
+    video: false,
+    hideFromHome: true,
+    date: "2026-5-01"
+  },
   
   {
     title: "Art",
