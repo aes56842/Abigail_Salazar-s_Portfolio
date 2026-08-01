@@ -28,6 +28,11 @@
   - date:        "YYYY-MM-DD" — used to sort newest-first. Doesn't need to be
                   exact, just needs to be more recent than older projects.
 
+  IMPORTANT: every filename must be wrapped in quotation marks, like
+  "example.png" — not example.png. Without quotes, the whole file breaks
+  and nothing on the site will render (this happened once already, so
+  it's worth double-checking any line you type by hand).
+
   Thumbnails with "2" at the end are the All Work section versions.
 
   GALLERY-TYPE ENTRIES (for things like a set of art pieces, with no
@@ -44,7 +49,7 @@
 
 const ART_GALLERY = [
   "heartart.png", "flowerart.heic", "pigeonhouseart.heic", "pigeonart2.heic", "pigeonart3.heic",
-  "phoneart.heic", "heartart.png", "turtleart.heic", "reefart.heic", "reedart1.heic",
+  "phoneart.heic", "beeart.heic", "turtleart.heic", "reefart.heic", "reedart1.heic",
   "beeart.heic", "sunflowerart.heic", "sunflowerart2.heic", "shoeart.heic"
 ];
 
@@ -67,7 +72,6 @@ const PROJECTS = [
     image: "withlovethumbnail.png",
     thumbnail: "withlovethumbnail2.png",
     video: false,
-    hideFromHome: true,
     date: "2026-05-01"
   },
   {
@@ -78,7 +82,6 @@ const PROJECTS = [
     image: "arothumbnail.png",
     thumbnail: "arothumbnail2.png",
     video: false,
-    hideFromHome: true,
     date: "2026-04-01"
   },
   {
@@ -94,7 +97,7 @@ const PROJECTS = [
   {
     slug: "iyacyberpunkinfopage.html",
     title: "IYA \u00d7 Cyberpunk",
-    category: " 3D Concept / Motion",
+    category: "Concept / Motion",
     description: "A total redesign.",
     // Re-export the original .mov as .mp4 and update the filename below —
     // browsers don't reliably play .mov files.
@@ -102,20 +105,19 @@ const PROJECTS = [
     video: true,
     date: "2026-02-01"
   },
-
-{
-     slug: "acasoinfopage.html",
+  {
+    slug: "vexciteinfopage.html",
     title: "Vexcite",
     category: "Validation & Growth",
     description: "The Electric Motorcycle",
     image: "vexcitethumbnail.png",
     thumbnail: "vexcitethumbnail2.png",
     video: false,
+    hideFromHome: true,
     date: "2026-04-01"
   },
-
-{
-     slug: "acasoinfopage.html",
+  {
+    slug: "ouraringinfopage.html",
     title: "Oura Ring Concept",
     category: "Product Design",
     description: "Oura: The Future of Healing",
@@ -125,32 +127,30 @@ const PROJECTS = [
     hideFromHome: true,
     date: "2026-04-01"
   },
-
   {
-     slug: "acasoinfopage.html",
+    slug: "uscxarspharmainfopage.html",
     title: "USC X ARS PHARMA",
     category: "Validation & Growth",
     description: "Anaphylaxis Prevention on Campus",
     image: "uscxpharmathumbnail.png",
     thumbnail: "uscxpharmathumbnail2.png",
     video: false,
+    hideFromHome: true,
     date: "2026-04-01"
   },
-
   {
-     slug: "acasoinfopage.html",
-    title: "Chindōgu Design",
+    slug: "chindoguinfopage.html",
+    title: "Chind\u014dgu Design",
     category: "Product Design",
-    description: "Chindōgu Design Concept",
+    description: "Chind\u014dgu Design Concept",
     image: "Chindoguthumbnail.png",
     thumbnail: "Chindoguthumbnail2.png",
     video: false,
     hideFromHome: true,
     date: "2025-10-01"
   },
-
   {
-     slug: "acasoinfopage.html",
+    slug: "arenatableinfopage.html",
     title: "ArenaTable",
     category: "Product Design",
     description: "Sports Reimagined",
@@ -160,9 +160,8 @@ const PROJECTS = [
     hideFromHome: true,
     date: "2025-11-01"
   },
-
   {
-     slug: "acasoinfopage.html",
+    slug: "classmateinfopage.html",
     title: "Classmate App",
     category: "Validation & Growth",
     description: "AI-Powered Writing Feedback",
@@ -172,21 +171,19 @@ const PROJECTS = [
     hideFromHome: true,
     date: "2025-12-01"
   },
-
   {
-     slug: "acasoinfopage.html",
+    slug: "uscmobileorderinginfopage.html",
     title: "Redesign: USC's Mobile Ordering App",
     category: "Validation & Growth",
     description: "Simpler, Faster, Efficient Ordering",
-    image: "uscxpharmathumbnail.png",
-    thumbnail: "uscxpharmathumbnail2.png",
+    image: "classmatethumbnail.png",
+    thumbnail: "classmatethumbnail2.png",
     video: false,
     hideFromHome: true,
     date: "2025-12-01"
   },
-
   {
-     slug: "acasoinfopage.html",
+    slug: "coffaeinfopage.html",
     title: "COFFAE Web Design",
     category: "Web Design",
     description: "Sustainable, Modern, Affordable Coffee Table",
@@ -194,9 +191,8 @@ const PROJECTS = [
     thumbnail: "coffaethumbnail2.png",
     video: false,
     hideFromHome: true,
-    date: "2026-5-01"
+    date: "2026-05-01"
   },
-  
   {
     title: "Art",
     category: "Art",
