@@ -176,8 +176,8 @@ const PROJECTS = [
     title: "Redesign: USC's Mobile Ordering App",
     category: "Validation & Growth",
     description: "Simpler, Faster, Efficient Ordering",
-    image: "classmatethumbnail.png",
-    thumbnail: "classmatethumbnail2.png",
+    image: "orderingappthumbnail.png",
+    thumbnail: "orderingappthumbnail2.png",
     video: false,
     hideFromHome: true,
     date: "2025-12-01"
