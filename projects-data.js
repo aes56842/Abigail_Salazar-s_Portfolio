@@ -106,7 +106,7 @@ const PROJECTS = [
     date: "2026-02-01"
   },
   {
-    slug: "Vexciteinfopage.html",
+    slug: "vexciteinfopage.html",
     title: "Vexcite",
     category: "Validation & Growth",
     description: "The Electric Motorcycle",
@@ -117,7 +117,7 @@ const PROJECTS = [
     date: "2026-04-01"
   },
   {
-    slug: "Ouraringinfopage.html",
+    slug: "ouraringinfopage.html",
     title: "Oura Ring Concept",
     category: "Product Design",
     description: "Oura: The Future of Healing",
@@ -128,7 +128,7 @@ const PROJECTS = [
     date: "2026-04-01"
   },
   {
-    slug: "Uscxarspharmainfopage.html",
+    slug: "uscxarspharmainfopage.html",
     title: "USC X ARS PHARMA",
     category: "Validation & Growth",
     description: "Anaphylaxis Prevention on Campus",
@@ -139,7 +139,7 @@ const PROJECTS = [
     date: "2026-04-01"
   },
   {
-    slug: "Chindoguinfopage.html",
+    slug: "chindoguinfopage.html",
     title: "Chind\u014dgu Design",
     category: "Product Design",
     description: "Chind\u014dgu Design Concept",
@@ -150,7 +150,7 @@ const PROJECTS = [
     date: "2025-10-01"
   },
   {
-    slug: "Arenatableinfopage.html",
+    slug: "arenatableinfopage.html",
     title: "ArenaTable",
     category: "Product Design",
     description: "Sports Reimagined",
@@ -161,7 +161,7 @@ const PROJECTS = [
     date: "2025-11-01"
   },
   {
-    slug: "Classmateinfopage.html",
+    slug: "classmateinfopage.html",
     title: "Classmate App",
     category: "Validation & Growth",
     description: "AI-Powered Writing Feedback",
@@ -172,7 +172,7 @@ const PROJECTS = [
     date: "2025-12-01"
   },
   {
-    slug: "Uscmobileorderinginfopage.html",
+    slug: "uscmobileorderinginfopage.html",
     title: "Redesign: USC's Mobile Ordering App",
     category: "Validation & Growth",
     description: "Simpler, Faster, Efficient Ordering",
